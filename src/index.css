@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: auto;
+    width: 100%;
+}
+.contPadre{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contBig{
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/src/components/images/cuervoR.jpg');
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 7vh;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fromulary{
+    background-color: black;
+    box-shadow: 1px 1px 20px #000;
+    width: 25%;
+    height: 65vh;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 10px;
+}
+.fromulary input{
+    margin-top: 10%;
+    border-style: none;
+    border-bottom: 2px white solid;
+    background-color: #00000068;
+    color: white;
+}
+.btn{
+    margin-top: 10%;
+    border: none;
+    width: 40%;
+    height: 60%;
+    cursor: pointer;
+}
+.contmessageConfirm{
+    margin-top: 5px; 
+}
+.contBigL{
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/src/components/images/pexels-inga-seliverstova-6484391.jpg');
+    background-size: cover;
+}
+.fromularyL{
+    background-color: black;
+    box-shadow: 1px 1px 20px #000;
+    width: 25%;
+    height: 55vh;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8%;
+    padding: 10px;
+}
+.fromularyL input{
+    margin-top: 10%;
+    border-style: none;
+    border-bottom: 2px white solid;
+    background-color: #00000068;
+    color: white;
+}
+.btnL{
+    margin-top: 10%;
+    border: none;
+    width: 50%;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.contHome{
+    background-image: url('./components/images/fondoLoign.jpg');
+    width: 100%;
+    height: 93vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contList{
+    width: 100%;
+    height: 93vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('./components/images/background-lista.jpg'); 
+}
+.contList h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*     mensajes de error    */
+.errorName{
+    color: red;
+}
+.errorPassword{
+    color: red;
+}
+.errorEmail{
+    color: red;
+}
+.errorConfirmP{
+    color: red;
+}
+
+
+/*           L I S T A            */
+
+.subContlist{
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 35px;
+}
+.table td, .table th{
+    border: 1px solid #2d2d2d;
+    padding: 8px;
+}
+.table tr:nth-child(even){
+    background-color: #000000;
+    color: white;
+}
+/* .table tr:hover {
+    background-color: #ffffff;
+    color: #000;
+} */
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2e2e2eb1;
+    color: white;
+}
+/*        H O M E       */
+.contHome{
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
